@@ -1,13 +1,13 @@
 <template>
-  <section class="lg:px-16 md:px-10 py-3 bg-gradient-to-b from-blue-300">
+  <section class="lg:px-16 md:px-10 py-2 bg-gradient-to-b from-blue-300">
     <div class="">
       <section>
         <div class="overflow-x-hidden">
           <div class="background-img rounded-t-3xl"></div>
           <nav
-            class="relative w-ful flex justify-between items-center py-1 bg-gray-100 text-gray-500 hover:text-gray-700 focus:text-gray-700 shadow-lg navbar navbar-expand-lg navbar-light"
+            class="relative w-ful flex justify-between items-center bg-gray-100 text-gray-500 hover:text-gray-700 focus:text-gray-700 shadow-lg navbar navbar-expand-lg navbar-light"
           >
-            <div class="xl:w-72 hidden md:block pl-2 lg:w-40">
+            <div class="w-72  pl-2">
               <div
                 class="input-group relative flex flex-wrap items-stretch w-full"
               >
@@ -79,74 +79,74 @@
                 <ul
                   class="navbar-nav flex flex-col list-style-none justify-end"
                 >
-                  <li class="nav-item p-2">
+                  <li class="nav-item py-1 px-0.5">
                     <button
                       @click="goToPage('/')"
                       type="button"
-                      class="inline-block px-4 py-2.5 bg-blue-400 text-white font-medium md:text-sm md:text-xs leading-tight uppercase rounded-full shadow-md hover:bg-blue-500 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out capitalize"
+                      class="inline-block px-4 py-2 bg-blue-400 text-white font-medium md:text-sm md:text-xs leading-tight uppercase rounded-full shadow-md hover:bg-blue-500 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out capitalize"
                     >
                       Home
                     </button>
                   </li>
-                  <li class="nav-item p-2">
+                  <li class="nav-item py-1 px-0.5">
                     <button
                       @click="goToPage('/team')"
                       type="button"
-                      class="inline-block px-4 py-2.5 bg-blue-400 text-white font-medium md:text-sm md:text-xs leading-tight uppercase rounded-full shadow-md hover:bg-blue-500 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out capitalize"
+                      class="inline-block px-4 py-2 bg-blue-400 text-white font-medium md:text-sm md:text-xs leading-tight uppercase rounded-full shadow-md hover:bg-blue-500 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out capitalize"
                     >
                       Team
                     </button>
                   </li>
-                  <li class="nav-item p-2">
+                  <li class="nav-item py-1 px-0.5">
                     <button
                     @click="goToPage('/events')"
                       type="button"
-                      class="inline-block px-4 py-2.5 bg-blue-400 text-white font-medium md:text-sm md:text-xs leading-tight uppercase rounded-full shadow-md hover:bg-blue-500 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out capitalize"
+                      class="inline-block px-4 py-2 bg-blue-400 text-white font-medium md:text-sm md:text-xs leading-tight uppercase rounded-full shadow-md hover:bg-blue-500 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out capitalize"
                     >
                       Event
                     </button>
                   </li>
-                  <li class="nav-item p-2">
+                  <li class="nav-item py-1 px-0.5">
                     <button
                       @click="goToPage('/contactus')"
                       type="button"
-                      class="inline-block px-4 py-2.5 bg-blue-400 text-white font-medium md:text-sm md:text-xs leading-tight uppercase rounded-full shadow-md hover:bg-blue-500 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out capitalize"
+                      class="inline-block px-4 py-2 bg-blue-400 text-white font-medium md:text-sm md:text-xs leading-tight uppercase rounded-full shadow-md hover:bg-blue-500 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out capitalize"
                     >
                       Contact
                     </button>
                   </li>
-                  <li class="nav-item p-2">
+                  <li class="nav-item py-1 px-0.5">
                     <button
                       @click="goToPage('/partner')"
                       type="button"
-                      class="inline-block px-4 py-2.5 bg-blue-400 text-white font-medium md:text-sm md:text-xs leading-tight uppercase rounded-full shadow-md hover:bg-blue-500 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out capitalize"
+                      class="inline-block px-4 py-2 bg-blue-400 text-white font-medium md:text-sm md:text-xs leading-tight uppercase rounded-full shadow-md hover:bg-blue-500 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out capitalize"
                     >
                       Partners
                     </button>
                   </li>
-                  <li class="nav-item p-2">
+                  <li class="nav-item py-1 px-0.5">
                     <button
                       @click="goToPage('/projects')"
                       type="button"
-                      class="inline-block px-4 py-2.5 bg-blue-400 text-white font-medium md:text-sm md:text-xs leading-tight uppercase rounded-full shadow-md hover:bg-blue-500 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out capitalize"
+                      class="inline-block px-4 py-2 bg-blue-400 text-white font-medium md:text-sm md:text-xs leading-tight uppercase rounded-full shadow-md hover:bg-blue-500 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out capitalize"
                     >
                       Projects
                     </button>
                   </li>
-                  <li class="nav-item p-2">
+                  <li class="nav-item py-1 px-0.5">
                     <button
                     @click="goToPage('/society')"
                       type="button"
-                      class="inline-block px-4 py-2.5 bg-blue-400 text-white font-medium md:text-sm md:text-xs leading-tight uppercase rounded-full shadow-md hover:bg-blue-500 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out capitalize"
+                      class="inline-block px-4 py-2 bg-blue-400 text-white font-medium md:text-sm md:text-xs leading-tight uppercase rounded-full shadow-md hover:bg-blue-500 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out capitalize"
                     >
                       Society
                     </button>
                   </li>
-                  <li class="nav-item p-2">
+                  <li class="nav-item py-1 px-0.5">
                     <button
                       @click="goToPage('/publication')"
                       type="button"
-                      class="inline-block px-4 py-2.5 bg-blue-400 text-white font-medium md:text-sm md:text-xs leading-tight uppercase rounded-full shadow-md hover:bg-blue-500 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out capitalize"
+                      class="inline-block px-4 py-2 bg-blue-400 text-white font-medium md:text-sm md:text-xs leading-tight uppercase rounded-full shadow-md hover:bg-blue-500 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out capitalize"
                     >
                       Publication
                     </button>
@@ -196,7 +196,7 @@ export default {
 <style>
 .background-img {
   background-image: url("./assets/img/top-bg.jpeg");
-  height: 200px;
+  height: 170px;
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }

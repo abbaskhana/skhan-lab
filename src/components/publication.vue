@@ -698,52 +698,52 @@ export default {
           data: [
             {
               name: "2013",
-              y: 30.74,
+              y: 8.74,
               drilldown: "2013",
             },
             {
               name: "2014",
-              y: 10.57,
+              y: 12.57,
               drilldown: "2014",
             },
             {
               name: "2015",
-              y: 7.23,
+              y: 18.23,
               drilldown: "2015",
             },
             {
               name: "2016",
-              y: 5.58,
+              y: 26.58,
               drilldown: "2016",
             },
             {
               name: "2017",
-              y: 4.02,
+              y: 30.02,
               drilldown: "2017",
             },
             {
               name: "2018",
-              y: 1.92,
+              y: 38.92,
               drilldown: "20018",
             },
             {
               name: "2019",
-              y: 1.92,
+              y: 46.92,
               drilldown: "2019",
             },
             {
               name: "2020",
-              y: 1.92,
+              y: 54.92,
               drilldown: "2020",
             },
             {
               name: "2021",
-              y: 1.92,
+              y: 60.92,
               drilldown: "2021",
             },
             {
               name: "2022",
-              y: 7.62,
+              y: 10.62,
               drilldown: "2022",
             },
           ],

@@ -6,10 +6,10 @@
         <div class="flex justify-center">
             <img src="@/assets/img/partner/partner1.png" width="170"  height="80" alt="">
         </div>
-        <div class="flex justify-between px-5  flex-wrap">
-            <img src="@/assets/img/partner/partner2.png" width="120" height="90" alt="">
-            <img src="@/assets/img/partner/partner3.png" width="120" height="90" alt="">
-            <img src="@/assets/img/partner/partner4.png"  width="12git init0" height="90"  alt="">
+        <div class="flex justify-center px-5  flex-wrap">
+            <img src="@/assets/img/partner/partner2.png" width="180" height="120" alt="">
+            <img src="@/assets/img/partner/partner3.png" width="180" height="120" alt="">
+            <img src="@/assets/img/partner/partner4.png"  width="180" height="120"  alt="">
         </div>
 
     </div>
