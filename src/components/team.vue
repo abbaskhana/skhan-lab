@@ -157,7 +157,7 @@
                     <img src="@/assets/img/team/waheed.png" width="180" class="max-w-7xl rounded-full w-48" alt="">
                 </div>
             </div>
-
+  <hr class="my-5 border-dashed border-gray-300">
             <div class="flex justify-between items-center flex-wrap">
                 <div class="">
                     <h1 class="text-2xl font-bold">Mr.Muhammad Ijaz</h1>
@@ -172,7 +172,7 @@
                     <img src="@/assets/img/team/ijaz.png" width="180" class="max-w-7xl rounded-full w-48" alt="">
                 </div>
             </div>
-
+<hr class="my-5 border-dashed border-gray-300">
             <div class="flex justify-between items-center  flex-wrap">
                 <div class="">
                     <h1 class="text-2xl font-bold">MR. Gulzar Ahmad</h1>
@@ -187,6 +187,7 @@
                     <img src="@/assets/img/team/gulzar.png" width="180" class="max-w-7xl rounded-full w-48" alt="">
                 </div>
             </div>
+            <hr class="my-5 border-dashed border-gray-300">
             <div class="flex justify-between items-center flex-wrap">
                 <div class="">
                     <h1 class="text-2xl font-bold">Mr. Farhan Ullah</h1>
@@ -201,6 +202,7 @@
                     <img src="@/assets/img/team/farhan.png" width="180" class="max-w-7xl rounded-full w-48" alt="">
                 </div>
             </div>
+            <hr class="my-2 border-dashed border-gray-300">
             <div class="flex justify-between items-center flex-wrap">
                 <div class="">
                     <h1 class="text-2xl font-bold">Ms. W-Rahman</h1>
@@ -215,6 +217,7 @@
                     <img src="@/assets/img/team/female.png" width="180" class="max-w-7xl rounded-full w-48" alt="">
                 </div>
             </div>
+            <hr class="my-5 border-dashed border-gray-300">
             <div class="flex justify-between items-center flex-wrap">
                 <div class="">
                     <h1 class="text-2xl font-bold">Mr. Syed Luqman Ali</h1>
@@ -229,6 +232,7 @@
                     <img src="@/assets/img/team/luqman.png" width="180" class="max-w-7xl rounded-full w-48" alt="">
                 </div>
             </div>
+            <hr class="my-5 border-dashed border-gray-300">
             <div class="flex justify-between items-center flex-wrap">
                 <div class="">
                     <h1 class="text-2xl font-bold">Mr. Muhammad Amir Ali</h1>
@@ -267,7 +271,7 @@
                     <img src="@/assets/img/team/female.png" width="180" class="max-w-7xl rounded-full w-48" alt="">
                 </div>
             </div>
-
+<hr class="my-5 border-dashed border-gray-300">
             <div class="flex justify-between items-center flex-wrap">
                 <div class="">
                     <h1 class="text-2xl font-bold">Dr. Faizah Altaf</h1>
@@ -282,7 +286,7 @@
                     <img src="@/assets/img/team/drfaizapng.png" width="180" class="max-w-7xl rounded-full w-48" alt="">
                 </div>
             </div>
-
+<hr class="my-5 border-dashed border-gray-300">
             <div class="flex justify-between items-center flex-wrap">
                 <div class="">
                     <h1 class="text-2xl font-bold">Mr. Hazrat Usman</h1>
@@ -347,5 +351,7 @@ export default {
 </script>
 
 <style>
-
+hr {
+    border-top-width: 2px;
+}
 </style>

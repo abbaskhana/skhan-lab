@@ -19,7 +19,7 @@
                   aria-describedby="button-addon2"
                 />
                 <button
-                  class="btn inline-block px-6 py-2.5 bg-blue-400 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-500 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out flex items-center"
+                  class="btn inline-block px-6 py-2.5 bg-gray-100 text-black font-medium text-xs leading-tight uppercase rounded shadow-md  hover:bg-blue-300 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out flex items-center"
                   type="button"
                   id="button-addon2"
                 >
@@ -83,7 +83,7 @@
                     <button
                       @click="goToPage('/')"
                       type="button"
-                      class="inline-block px-4 py-2 bg-blue-400 text-white font-medium md:text-sm md:text-xs leading-tight uppercase rounded-full shadow-md hover:bg-blue-500 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out capitalize"
+                      class="inline-block px-4 py-2 bg-gray-100 text-black font-medium md:text-sm md:text-xs leading-tight uppercase rounded-full   hover:bg-blue-300 hover:shadow-lg focus:bg-blue-300 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out capitalize"
                     >
                       Home
                     </button>
@@ -92,7 +92,7 @@
                     <button
                       @click="goToPage('/team')"
                       type="button"
-                      class="inline-block px-4 py-2 bg-blue-400 text-white font-medium md:text-sm md:text-xs leading-tight uppercase rounded-full shadow-md hover:bg-blue-500 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out capitalize"
+                      class="inline-block px-4 py-2 bg-gray-100 text-black font-medium md:text-sm md:text-xs leading-tight uppercase rounded-full    hover:bg-blue-300 hover:shadow-lg focus:bg-blue-300 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out capitalize"
                     >
                       Team
                     </button>
@@ -101,7 +101,7 @@
                     <button
                     @click="goToPage('/events')"
                       type="button"
-                      class="inline-block px-4 py-2 bg-blue-400 text-white font-medium md:text-sm md:text-xs leading-tight uppercase rounded-full shadow-md hover:bg-blue-500 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out capitalize"
+                      class="inline-block px-4 py-2 bg-gray-100 text-black font-medium md:text-sm md:text-xs leading-tight uppercase rounded-full    hover:bg-blue-300 hover:shadow-lg focus:bg-blue-300 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out capitalize"
                     >
                       Event
                     </button>
@@ -110,7 +110,7 @@
                     <button
                       @click="goToPage('/contactus')"
                       type="button"
-                      class="inline-block px-4 py-2 bg-blue-400 text-white font-medium md:text-sm md:text-xs leading-tight uppercase rounded-full shadow-md hover:bg-blue-500 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out capitalize"
+                      class="inline-block px-4 py-2 bg-gray-100 text-black font-medium md:text-sm md:text-xs leading-tight uppercase rounded-full    hover:bg-blue-300 hover:shadow-lg focus:bg-blue-300 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out capitalize"
                     >
                       Contact
                     </button>
@@ -119,7 +119,7 @@
                     <button
                       @click="goToPage('/partner')"
                       type="button"
-                      class="inline-block px-4 py-2 bg-blue-400 text-white font-medium md:text-sm md:text-xs leading-tight uppercase rounded-full shadow-md hover:bg-blue-500 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out capitalize"
+                      class="inline-block px-4 py-2 bg-gray-100 text-black font-medium md:text-sm md:text-xs leading-tight uppercase rounded-full    hover:bg-blue-300 hover:shadow-lg focus:bg-blue-300 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out capitalize"
                     >
                       Partners
                     </button>
@@ -128,7 +128,7 @@
                     <button
                       @click="goToPage('/projects')"
                       type="button"
-                      class="inline-block px-4 py-2 bg-blue-400 text-white font-medium md:text-sm md:text-xs leading-tight uppercase rounded-full shadow-md hover:bg-blue-500 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out capitalize"
+                      class="inline-block px-4 py-2 bg-gray-100 text-black font-medium md:text-sm md:text-xs leading-tight uppercase rounded-full    hover:bg-blue-300 hover:shadow-lg focus:bg-blue-300 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out capitalize"
                     >
                       Projects
                     </button>
@@ -137,7 +137,7 @@
                     <button
                     @click="goToPage('/society')"
                       type="button"
-                      class="inline-block px-4 py-2 bg-blue-400 text-white font-medium md:text-sm md:text-xs leading-tight uppercase rounded-full shadow-md hover:bg-blue-500 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out capitalize"
+                      class="inline-block px-4 py-2 bg-gray-100 text-black font-medium md:text-sm md:text-xs leading-tight uppercase rounded-full    hover:bg-blue-300 hover:shadow-lg focus:bg-blue-300 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out capitalize"
                     >
                       Society
                     </button>
@@ -146,7 +146,7 @@
                     <button
                       @click="goToPage('/publication')"
                       type="button"
-                      class="inline-block px-4 py-2 bg-blue-400 text-white font-medium md:text-sm md:text-xs leading-tight uppercase rounded-full shadow-md hover:bg-blue-500 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out capitalize"
+                      class="inline-block px-4 py-2 bg-gray-100 text-black font-medium md:text-sm md:text-xs leading-tight uppercase rounded-full    hover:bg-blue-300 hover:shadow-lg focus:bg-blue-300 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out capitalize"
                     >
                       Publication
                     </button>

@@ -12,7 +12,7 @@
           <ol class="relative border-l-4 border-gray-300 dark:border-gray-700">
             <li class="py-8"></li>
 
-            <li class="mb-10 ml-6">
+            <li class="mb-5 ml-6">
               <span
                 class="absolute flex items-center justify-center w-6 h-6 bg-blue-200 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900"
               >
@@ -51,7 +51,7 @@
                 </div>
               </div>
             </li>
-            <li class="mb-10 ml-6">
+            <li class="mb-5 ml-6">
               <span
                 class="absolute flex items-center justify-center w-6 h-6 bg-blue-200 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900"
               >
@@ -92,7 +92,7 @@
                 </div>
               </div>
             </li>
-            <li class="mb-10 ml-6">
+            <li class="mb-5 ml-6">
               <span
                 class="absolute flex items-center justify-center w-6 h-6 bg-blue-200 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900"
               >
@@ -130,7 +130,7 @@
                 </div>
               </div>
             </li>
-            <li class="mb-10 ml-6">
+            <li class="mb-5 ml-6">
               <span
                 class="absolute flex items-center justify-center w-6 h-6 bg-blue-200 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900"
               >
@@ -169,7 +169,7 @@
                 </div>
               </div>
             </li>
-            <li class="mb-10 ml-6">
+            <li class="mb-5 ml-6">
               <span
                 class="absolute flex items-center justify-center w-6 h-6 bg-blue-200 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900"
               >
@@ -214,7 +214,7 @@
           <ol class="relative border-l-4 border-gray-300 dark:border-gray-700">
             <li class="py-8"></li>
 
-            <li class="mb-10 ml-6">
+            <li class="mb-5 ml-6">
               <span
                 class="absolute flex items-center justify-center w-6 h-6 bg-blue-200 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900"
               >
@@ -253,7 +253,7 @@
                 </div>
               </div>
             </li>
-            <li class="mb-10 ml-6">
+            <li class="mb-5 ml-6">
               <span
                 class="absolute flex items-center justify-center w-6 h-6 bg-blue-200 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900"
               >
@@ -291,7 +291,7 @@
                 </div>
               </div>
             </li>
-            <li class="mb-10 ml-6">
+            <li class="mb-5 ml-6">
               <span
                 class="absolute flex items-center justify-center w-6 h-6 bg-blue-200 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900"
               >
@@ -329,7 +329,7 @@
                 </div>
               </div>
             </li>
-            <li class="mb-10 ml-6">
+            <li class="mb-5 ml-6">
               <span
                 class="absolute flex items-center justify-center w-6 h-6 bg-blue-200 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900"
               >
@@ -368,7 +368,7 @@
                 </div>
               </div>
             </li>
-            <li class="mb-10 ml-6">
+            <li class="mb-5 ml-6">
               <span
                 class="absolute flex items-center justify-center w-6 h-6 bg-blue-200 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900"
               >
@@ -417,7 +417,7 @@
           <ol class="relative border-l-4 border-gray-300 dark:border-gray-700">
             <li class="py-8"></li>
 
-            <li class="mb-10 ml-6">
+            <li class="mb-5 ml-6">
               <span
                 class="absolute flex items-center justify-center w-6 h-6 bg-blue-200 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900"
               >
@@ -452,7 +452,7 @@
                 </div>
               </div>
             </li>
-            <li class="mb-10 ml-6">
+            <li class="mb-5 ml-6">
               <span
                 class="absolute flex items-center justify-center w-6 h-6 bg-blue-200 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900"
               >
@@ -487,7 +487,7 @@
                 </div>
               </div>
             </li>
-            <li class="mb-10 ml-6">
+            <li class="mb-5 ml-6">
               <span
                 class="absolute flex items-center justify-center w-6 h-6 bg-blue-200 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900"
               >
@@ -522,7 +522,7 @@
                 </div>
               </div>
             </li>
-            <li class="mb-10 ml-6">
+            <li class="mb-5 ml-6">
               <span
                 class="absolute flex items-center justify-center w-6 h-6 bg-blue-200 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900"
               >
@@ -555,7 +555,7 @@
                 </div>
               </div>
             </li>
-            <li class="mb-10 ml-6">
+            <li class="mb-5 ml-6">
               <span
                 class="absolute flex items-center justify-center w-6 h-6 bg-blue-200 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900"
               >
@@ -590,7 +590,7 @@
                 </div>
               </div>
             </li>
-            <li class="mb-10 ml-6">
+            <li class="mb-5 ml-6">
               <span
                 class="absolute flex items-center justify-center w-6 h-6 bg-blue-200 rounded-full -left-3 ring-8 ring-white dark:ring-gray-900 dark:bg-blue-900"
               >
