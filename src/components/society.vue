@@ -1,6 +1,6 @@
 <template>
   <section>
-      <div class="px-5 py-5 pb-16 mb-16">
+      <div class="px-5 py-5 h-screen">
           <p class="pt-5 pb-2 text-xl">The scientific society registration is under process so kindly wait.</p>
           <h1 class="text-xl font-bold py-2">Objectives</h1>
           <p class="text-md ">.) To encourage and assist researchers with special interest groups in the field of scientific research.</p>

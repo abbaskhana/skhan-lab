@@ -60,7 +60,7 @@
                     <img src="@/assets/img/partner/partner4.png" width="180" class="max-w-7xl" alt="">
                 </div>
             </div>
-            <div class="flex justify-between items-center my-2 ">
+            <div class="flex justify-between items-center my-2 pb-10">
                 <div class="">
                     <h1 class="text-2xl py-0.5 font-medium">Kapodistrian University of Athens, Greece </h1>
                     <p class="text-lg">Project in Collaboration</p>
@@ -79,7 +79,7 @@
       <div style="min-height: 120px w-full">
         <div :class="Local_Projects" id="collapseWidthExample1">
           <div
-            class="block p-6 rounded-lg shadow-lg  "
+            class="block p-6 rounded-lg shadow-lg h-screen "
             
           >
             <div class="flex justify-between items-center">

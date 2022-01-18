@@ -1,6 +1,6 @@
 <template>
   <section>
-    <div class="overflow-x-hidden">
+    <div class="overflow-x-hidden lg:pb-16  md:pb-5">
       <h1
         class="lg:text-3xl md:text-lg pl-5 bg-blue-400 text-left rounded text-white py-5 font-medium"
       >

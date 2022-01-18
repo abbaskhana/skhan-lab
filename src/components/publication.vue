@@ -1,7 +1,7 @@
 <template>
   <section>
     <div>
-      <div>
+      <div class="pb-10">
         <figure class="highcharts-figure">
           <div id="container"></div>
         </figure>

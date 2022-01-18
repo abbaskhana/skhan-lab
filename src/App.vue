@@ -13,13 +13,13 @@
               >
                 <input
                   type="search"
-                  class="form-control relative flex-auto min-w-0 block w-full px-3 py-1.5 text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
+                  class="form-control relative flex-auto min-w-0 block w-full px-3  text-base font-normal text-gray-700 bg-white bg-clip-padding border border-solid border-gray-300 rounded transition ease-in-out m-0 focus:text-gray-700 focus:bg-white focus:border-blue-600 focus:outline-none"
                   placeholder="Search"
                   aria-label="Search"
                   aria-describedby="button-addon2"
                 />
                 <button
-                  class="btn inline-block px-6 py-2.5 bg-gray-100 text-black font-medium text-xs leading-tight uppercase rounded shadow-md  hover:bg-blue-300 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out flex items-center"
+                  class="btn inline-block px-6  py-0.5 bg-gray-100 text-black font-medium text-xs leading-tight uppercase rounded shadow-md  hover:bg-blue-300 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out flex items-center"
                   type="button"
                   id="button-addon2"
                 >
@@ -79,74 +79,74 @@
                 <ul
                   class="navbar-nav flex flex-col list-style-none justify-end"
                 >
-                  <li class="nav-item py-1 px-0.5">
+                  <li class="nav-item   px-0.5">
                     <button
                       @click="goToPage('/')"
                       type="button"
-                      class="inline-block px-4 py-2 bg-gray-100 text-black font-medium md:text-sm md:text-xs leading-tight uppercase rounded-full   hover:bg-blue-300 hover:shadow-lg focus:bg-blue-300 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out capitalize"
+                      class="inline-block px-4  py-0.5 bg-gray-100 text-black font-medium md:text-lg leading-tight uppercase rounded-full   hover:bg-blue-300 hover:shadow-lg focus:bg-blue-300 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out capitalize"
                     >
                       Home
                     </button>
                   </li>
-                  <li class="nav-item py-1 px-0.5">
+                  <li class="nav-item   px-0.5">
                     <button
                       @click="goToPage('/team')"
                       type="button"
-                      class="inline-block px-4 py-2 bg-gray-100 text-black font-medium md:text-sm md:text-xs leading-tight uppercase rounded-full    hover:bg-blue-300 hover:shadow-lg focus:bg-blue-300 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out capitalize"
+                      class="inline-block px-4  py-0.5 bg-gray-100 text-black font-medium md:text-lg leading-tight uppercase rounded-full    hover:bg-blue-300 hover:shadow-lg focus:bg-blue-300 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out capitalize"
                     >
                       Team
                     </button>
                   </li>
-                  <li class="nav-item py-1 px-0.5">
+                  <li class="nav-item   px-0.5">
                     <button
                     @click="goToPage('/events')"
                       type="button"
-                      class="inline-block px-4 py-2 bg-gray-100 text-black font-medium md:text-sm md:text-xs leading-tight uppercase rounded-full    hover:bg-blue-300 hover:shadow-lg focus:bg-blue-300 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out capitalize"
+                      class="inline-block px-4  py-0.5 bg-gray-100 text-black font-medium md:text-lg leading-tight uppercase rounded-full    hover:bg-blue-300 hover:shadow-lg focus:bg-blue-300 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out capitalize"
                     >
                       Event
                     </button>
                   </li>
-                  <li class="nav-item py-1 px-0.5">
+                  <li class="nav-item   px-0.5">
                     <button
                       @click="goToPage('/contactus')"
                       type="button"
-                      class="inline-block px-4 py-2 bg-gray-100 text-black font-medium md:text-sm md:text-xs leading-tight uppercase rounded-full    hover:bg-blue-300 hover:shadow-lg focus:bg-blue-300 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out capitalize"
+                      class="inline-block px-4  py-0.5 bg-gray-100 text-black font-medium md:text-lg leading-tight uppercase rounded-full    hover:bg-blue-300 hover:shadow-lg focus:bg-blue-300 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out capitalize"
                     >
                       Contact
                     </button>
                   </li>
-                  <li class="nav-item py-1 px-0.5">
+                  <li class="nav-item   px-0.5">
                     <button
                       @click="goToPage('/partner')"
                       type="button"
-                      class="inline-block px-4 py-2 bg-gray-100 text-black font-medium md:text-sm md:text-xs leading-tight uppercase rounded-full    hover:bg-blue-300 hover:shadow-lg focus:bg-blue-300 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out capitalize"
+                      class="inline-block px-4  py-0.5 bg-gray-100 text-black font-medium md:text-lg leading-tight uppercase rounded-full    hover:bg-blue-300 hover:shadow-lg focus:bg-blue-300 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out capitalize"
                     >
                       Partners
                     </button>
                   </li>
-                  <li class="nav-item py-1 px-0.5">
+                  <li class="nav-item   px-0.5">
                     <button
                       @click="goToPage('/projects')"
                       type="button"
-                      class="inline-block px-4 py-2 bg-gray-100 text-black font-medium md:text-sm md:text-xs leading-tight uppercase rounded-full    hover:bg-blue-300 hover:shadow-lg focus:bg-blue-300 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out capitalize"
+                      class="inline-block px-4  py-0.5 bg-gray-100 text-black font-medium md:text-lg leading-tight uppercase rounded-full    hover:bg-blue-300 hover:shadow-lg focus:bg-blue-300 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out capitalize"
                     >
                       Projects
                     </button>
                   </li>
-                  <li class="nav-item py-1 px-0.5">
+                  <li class="nav-item   px-0.5">
                     <button
                     @click="goToPage('/society')"
                       type="button"
-                      class="inline-block px-4 py-2 bg-gray-100 text-black font-medium md:text-sm md:text-xs leading-tight uppercase rounded-full    hover:bg-blue-300 hover:shadow-lg focus:bg-blue-300 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out capitalize"
+                      class="inline-block px-4  py-0.5 bg-gray-100 text-black font-medium md:text-lg leading-tight uppercase rounded-full    hover:bg-blue-300 hover:shadow-lg focus:bg-blue-300 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out capitalize"
                     >
                       Society
                     </button>
                   </li>
-                  <li class="nav-item py-1 px-0.5">
+                  <li class="nav-item   px-0.5">
                     <button
                       @click="goToPage('/publication')"
                       type="button"
-                      class="inline-block px-4 py-2 bg-gray-100 text-black font-medium md:text-sm md:text-xs leading-tight uppercase rounded-full    hover:bg-blue-300 hover:shadow-lg focus:bg-blue-300 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out capitalize"
+                      class="inline-block px-4  py-0.5 bg-gray-100 text-black font-medium md:text-lg leading-tight uppercase rounded-full    hover:bg-blue-300 hover:shadow-lg focus:bg-blue-300 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out capitalize"
                     >
                       Publication
                     </button>

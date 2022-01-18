@@ -7,7 +7,10 @@
           @click="showdata('Principal_Investigator')"
           class="inline-block capitalize px-6 py-3 border-2 text-black  border-black font-medium text-sm leading-tight uppercase rounded shadow-md hover:bg-blue-300 hover:shadow-lg focus:bg-blue-400 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-400 active:shadow-lg transition duration-150 ease-in-out"
           type="button"
-          
+          data-bs-toggle="collapse"
+          data-bs-target="#collapseWidthExample"
+          aria-expanded="false"
+          aria-controls="collapseWidthExample"
         >
           Principal Investigator  
         </button>
@@ -40,7 +43,7 @@
       </p>
       <p class="my-2 ml-3">
         <button
-        @click="showdata('Alumi')"
+        @click="showdata('Alumni')"
           class="inline-block capitalize px-4 border-black py-3 border-2 text-black font-medium text-sm leading-tight uppercase rounded shadow-md hover:bg-blue-300 hover:shadow-lg focus:bg-blue-400 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-400 active:shadow-lg transition duration-150 ease-in-out"
           type="button"
           data-bs-toggle="collapse"
@@ -48,7 +51,7 @@
           aria-expanded="false"
           aria-controls="collapseWidthExample3"
         >
-          Alumi 
+          Alumni 
         </button>
       </p>
       </div>
@@ -58,9 +61,16 @@
             class="block p-6 rounded-lg shadow-lg  "
             
           >
-            <div class="flex justify-between flex-wrap ">
-                <div class="w-4/5">
-                    <h1 class="text-3xl py-2 font-bold">Dr. Shahid Ullah</h1>
+            <div class="">
+                <div class="">
+                  <div class="grid  sm:grid-cols-1 ">
+                    <div class="flex justify-end">
+                    <img src="@/assets/img/team/shahid.png" width="180" class="absolute  max-w-7xl  rounded-full w-48" alt="">
+                </div>
+                  </div>
+                  
+                    <div class="w-4/5">
+                      <h1 class="text-3xl py-2 font-bold">Dr. Shahid Ullah</h1>
                     <p class="text-2xl py-2 font-bold">Education</p>
                     <p class="text-lg font-medium">Postdoctoral</p>
                     <p class="text-md">Chinese academy of Science & Shenzhen University Institute of Low-dimensional Materials Genome Initiative, College of Chemistry and Environmental Engineering, Shenzhen, Guangdong 518060, P. R. China </p>
@@ -72,6 +82,7 @@
                     <p class="text-md">Government Post Graduate College Timergara, University of Malakand and Khyber Pakhtuankhwa (KPK) Pakistan Department of Biochemistry</p>
                     <p class="text-md">Bachelor of Education (B.Ed.)</p>
                     <p class="text-md">University of Malakand Khybor Pakhtuankhwa (KPK) Pakistan Department of Education</p>
+                    </div>
 
                     <p class="text-2xl font-bold  mt-3">Research Interests</p>
                     <p class="text-md">1) Computational study of Post translation modification of Protein (PTMs)</p>
@@ -104,9 +115,6 @@
                     <p class="text-md">Six month computer certificate scholarship awarded by Pakistani government</p>
 
                 </div>
-                <div>
-                    <img src="@/assets/img/team/shahid.png" width="180" class="max-w-7xl  rounded-full w-48" alt="">
-                </div>
             </div>
           </div>
         </div>
@@ -116,7 +124,7 @@
       <div style="min-height: 120px w-full">
         <div :class="Lab_Assistant" id="collapseWidthExample1">
           <div
-            class="block px-6 rounded-lg shadow-lg  "
+            class="block px-6 rounded-lg shadow-lg h-screen "
             
           >
             <div class="flex justify-between items-center flex-wrap">
@@ -252,7 +260,7 @@
       </div>
 
       <div style="min-height: 120px w-full">
-        <div :class="Alumi" id="collapseWidthExample3">
+        <div :class="Alumni" id="collapseWidthExample3">
           <div
             class="block p-6 rounded-lg shadow-lg  "
             
@@ -315,7 +323,7 @@ export default {
         Principal_Investigator:"collapse-vertical collapse show",
         Lab_Assistant:"collapse-vertical collapse",
         Current_Member:"collapse-vertical collapse",
-        Alumi:"collapse-vertical collapse",
+        Alumni:"collapse-vertical collapse",
       }
     },
     methods:{
@@ -325,25 +333,25 @@ export default {
           this.Principal_Investigator="collapse-vertical collapse show"
         this.Lab_Assistant="collapse-vertical collapse"
         this.Current_Member="collapse-vertical collapse"
-        this.Alumi="collapse-vertical collapse"
+        this.Alumni="collapse-vertical collapse"
         }
         if(name=="Lab_Assistant"){
           this.Principal_Investigator="collapse-vertical collapse"
         this.Lab_Assistant="collapse-vertical collapse show"
         this.Current_Member="collapse-vertical collapse"
-        this.Alumi="collapse-vertical collapse"
+        this.Alumni="collapse-vertical collapse"
         }
         if(name=="Current_Member"){
           this.Principal_Investigator="collapse-vertical collapse"
         this.Lab_Assistant="collapse-vertical collapse"
         this.Current_Member="collapse-vertical collapse show"
-        this.Alumi="collapse-vertical collapse"
+        this.Alumni="collapse-vertical collapse"
         }
-        if(name=="Alumi"){
+        if(name=="Alumni"){
           this.Principal_Investigator="collapse-vertical collapse"
         this.Lab_Assistant="collapse-vertical collapse"
         this.Current_Member="collapse-vertical collapse"
-        this.Alumi="collapse-vertical collapse show"
+        this.Alumni="collapse-vertical collapse show"
         }
       }
     }

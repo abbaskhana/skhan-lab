@@ -59,7 +59,8 @@ export default {};
 
 <style scoped>
 .background-img {
-  background-image: url("../assets/img/home-bg1.jpeg");
+  background-image: url("../assets/img/home-bg1.png");
   background-size: 100% 100%;
+  height: 170px;
 }
 </style>
