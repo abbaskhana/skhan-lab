@@ -1,6 +1,7 @@
 <template>
   <section>
       <div class="bg-gradient-to-b from-white rounded-2xl mt-1">
+        <h1 class="pl-5 pt-7 font-bold">Kindly click a button to find out more about</h1>
                 <div class="flex ml-5 flex-wrap">
           <p class="my-2">
         <button
