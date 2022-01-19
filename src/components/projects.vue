@@ -1,8 +1,9 @@
 <template>
   <section>
       <div class="bg-gradient-to-b from-white rounded-2xl mt-1">
+        <h1 class="pl-5 pt-7 font-bold">Kindly click a button to find out more about</h1>
                 <div class="flex ml-5">
-          <p class="my-5">
+          <p class="my-3">
         <button
           @click="showdata('International_Projects')"
           class="inline-block capitalize px-6 py-3 border-2 text-black  border-black font-medium text-sm leading-tight uppercase rounded shadow-md hover:bg-blue-300 hover:shadow-lg focus:bg-blue-400 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-400 active:shadow-lg transition duration-150 ease-in-out"
@@ -15,7 +16,7 @@
           International Projects  
         </button>
       </p>
-      <p class="my-5 ml-5">
+      <p class="my-3 ml-5">
         <button
           @click="showdata('Local_Projects')"
           class="inline-block capitalize px-6 py-3 border-2 text-black  border-black font-medium text-sm leading-tight uppercase rounded shadow-md hover:bg-blue-300 hover:shadow-lg focus:bg-blue-400 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-400 active:shadow-lg transition duration-150 ease-in-out"
